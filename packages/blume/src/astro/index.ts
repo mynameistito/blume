@@ -3,6 +3,7 @@ export { generateRuntime, prerenderDepsPlugin } from "./generate.ts";
 export { includeHmrPlugin } from "./include-hmr.ts";
 export { withIncludeRefresh } from "./include-refresh.ts";
 export { variablesVitePlugin } from "./variables.ts";
+export { cloudflareTunnelOutputPlugin } from "./tunnel-output.ts";
 export type { GenerateResult } from "./generate.ts";
 export {
   blumeIntegration,
